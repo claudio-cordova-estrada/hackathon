@@ -1,0 +1,247 @@
+header{
+width: 100%;
+margin-left: 0%;
+text-align: center;
+margin-bottom: 5%;
+padding-left: 0%;
+margin-top: 0%;
+margin-top:-5%;
+}
+
+
+@font-face {
+    font-family: "dark";
+    src: url("../fuentes/CWDRKAGE.TTF");}
+@font-face{    
+    font-family: "force";
+    src: url("../fuentes/FROSTBITE-Narrow Bold.ttf");
+  }
+  @font-face{
+    font-family: "brick";
+    src: url("../fuentes/BrickShapers.otf");
+}
+@font-face{
+    font-family: "dig";
+    src: url("../fuentes/Digital-Desolation-Plus.otf");
+}
+
+
+nav{
+    width: 100%;
+    float: left;
+    background-color: rgb(0, 0, 0, .8);
+    padding: 0%;
+    margin: 0% 0% ;
+}
+
+nav a  {
+    float: left;
+    width: 21%;
+    align-items: center;
+    
+    background-color: rgb(245, 245, 245, 0);
+    text-align: center;
+    margin-top: auto;
+    padding: 0% 2%;
+    font-size: 2vw;
+    text-decoration: none;
+    font-family: "brick" ;
+}
+
+nav a:link, a:visited {
+    background-color: rgb(7, 7, 7);
+    color: white;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    
+  }
+  
+nav  a:hover, a:active {
+    background-color: rgb(5, 5, 5,.5);
+  }
+
+  
+h1{
+    float: left;
+    width: 80%;
+    text-shadow: -2px 2px 2px rgb(8, 8, 8);
+    color: rgb(35, 131, 160);
+    font-size: 4vw;
+    font-family: "force";
+    padding: 2% 0%;
+    
+    background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1)), url("../imagenes/huellas2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h2{
+    font-size: 3vw;
+    margin: auto;
+    color: rgb(245, 245, 245);
+    padding-top: 1%;
+    padding: auto;
+    font-family: "force";
+    background: rgb(0,0,0,0);
+    text-align: center;
+}
+
+section p{
+    font-size: 2.5vw; 
+    background: rgb(255, 255, 255, 1) ;
+    border: .05cm solid rgb(0, 0, 0, 0);
+    border-radius: 0px;
+    padding: 1%;
+    box-shadow: -1px 1px rgb(0, 0, 0, .5);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img{
+    width: 20%;
+    height: auto;
+  }
+
+  @supports(object-fit: cover){
+     img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+      }
+  }
+
+
+
+
+table {
+    width: 80%;
+    border: 1px solid #000;
+    float: left;
+    margin-left: 10%;
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+    background: rgb(255, 255, 255, .8) ;
+ }
+ caption {
+    padding: 0.3em;
+    color: #fff;
+     background: #000;
+ }
+
+ section, ol , ul{
+  width: 80%;
+  float: left;
+  margin-bottom: 3%;
+  margin-left: 8%;
+  border: 0 rgb(0, 0, 0);
+  border-radius: 0px;
+  padding: 1%;
+  background: rgb(0,0,0, .7) ;
+ }
+
+ footer{
+    float:left;
+    width: 95%;
+    background: rgb(0,0,0, .7) ;
+    text-align: center;
+    
+    margin-left: 3%;
+    font-family: "brick";
+ }
+
+ footer p{
+    font-size: 2vw;
+    color: #fff;
+
+} 
+footer a{
+    font-size: 2vw;
+
+} 
+
+
+h3{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 3vw ;
+    width: 100%;
+    background-image: url("../imagenes/huellas2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(35, 131, 160);
+    text-shadow: -2px 2px 2px rgb(8, 8, 8);
+   margin-top: 0;
+   margin-bottom: 0;
+   font-family: "force";
+} 
+
+.menu{
+    display: inherit;
+    width: 97%;
+}
+
+@media only screen and (max-width: 800px ) {
+
+    /* For phone: */
+    
+    .menu:nav a {
+        display: none;
+    }
+    .menu:hover ~ a,.menu:focus ~ a, .menu:active ~ a, nav:hover  a   {
+        background-color: rgb(5, 5, 5,.5);
+        width: 100%;
+        display: block;
+        font-size: 100%;
+
+      } 
+    
+    }
+    
+    @media only screen and (min-width: 800px ) {
+    
+    /* For tablet: */
+    nav a {
+        display: none;
+    }
+    
+    .menu:hover ~ a {
+        background-color: rgb(5, 5, 5,.5);
+        width: 100%;
+        display: block;
+        font-size: 100%;
+
+      }
+    
+    
+    
+    }
+    
+    nav a {
+        display: none;
+    }
+    
+    
+    
+    @media only screen and (min-width:1000px  ) {
+        nav a {
+            display: block;
+        }
+        .menu{
+            display: none;
+            width: 100%;
+        }
+    /* For desktop: */
+    
+    
+    
+    }
+ 
+ 
