@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="A1E37D2D-AF5D-DEFC-FA5A-C5732E4C0022" mainViewID="2513D518-6D22-062C-A2C2-A9A4383774AE">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 17:12:34 UTC</createdTime>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="base_de_datos" id="91459DC6-63A5-E3EA-D441-5DFF1117F946" version="3.5">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 17:12:34 UTC</createdTime>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>91459DC6-63A5-E3EA-D441-5DFF1117F946</designId>
+</OSDM_Design>
