@@ -73,6 +73,18 @@
 <dataTypeSize>40</dataTypeSize>
 <ownDataTypeParameters>40,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="hora" id="D125CA34-C3C8-53AE-0B0B-06CD51644109">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-11 06:20:29 UTC</createdTime>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="4E2A38EA-2776-7EE1-1238-CEFAB38179AF" name="RECORRIDO PK">

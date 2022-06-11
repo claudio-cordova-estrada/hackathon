@@ -28,7 +28,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_dispo" id="8273BBCE-9D3D-9C04-D69D-C70B8DB2C092">
 <createdBy>CETECOM</createdBy>
@@ -43,7 +43,7 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_dispo1" id="E9998684-655D-F175-153F-F81FB32F90A3">
+<Attribute name="id_estado_dispo" id="E9998684-655D-F175-153F-F81FB32F90A3">
 <createdBy>CETECOM</createdBy>
 <createdTime>2022-06-10 22:18:56 UTC</createdTime>
 <generatorID>09DE3C66-8C64-894A-CF4A-EF557440E9E2</generatorID>

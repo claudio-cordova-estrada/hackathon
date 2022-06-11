@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_dispo" id="69840C2A-D20A-4F91-F487-3A28692FE3F5">
+<Column name="id_estado_dispo" id="69840C2A-D20A-4F91-F487-3A28692FE3F5">
 <createdBy>CETECOM</createdBy>
 <createdTime>2022-06-10 23:22:11 UTC</createdTime>
 <generatorID>357EC9F0-C7A2-50F8-F0B4-C94049D8CC60</generatorID>
@@ -20,7 +20,7 @@
 <ownDataTypeParameters>,1,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nom_dispo" id="A38E2DF3-B0E8-2A79-DBDD-559803EED905">
+<Column name="nom_estado_dispo" id="A38E2DF3-B0E8-2A79-DBDD-559803EED905">
 <createdBy>CETECOM</createdBy>
 <createdTime>2022-06-10 23:22:11 UTC</createdTime>
 <generatorID>30825EE3-D220-F876-23D6-6C3EAE199225</generatorID>

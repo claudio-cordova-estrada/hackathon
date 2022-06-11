@@ -20,7 +20,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="run_1" id="F6D92EAA-D1B5-D89E-BAE3-91153F171706">
+<Column name="run_2" id="F6D92EAA-D1B5-D89E-BAE3-91153F171706">
 <createdBy>CETECOM</createdBy>
 <createdTime>2022-06-10 23:22:11 UTC</createdTime>
 <generatorID>1606FEB0-A3CE-EB85-F4B5-BB611A00F9F8</generatorID>
@@ -91,7 +91,7 @@
 <colAssociation fkAssociation="D452E0DF-E4D6-E427-FDC8-859EDE4C00F5" referredColumn="47E06583-E9AC-C29D-68C0-78E3BA1BB9F9"/>
 </associations>
 </Column>
-<Column name="run_2" id="65F33222-81EB-36C9-1C93-0DDA578CD835">
+<Column name="run_1" id="65F33222-81EB-36C9-1C93-0DDA578CD835">
 <createdBy>CETECOM</createdBy>
 <createdTime>2022-06-10 23:26:31 UTC</createdTime>
 <generatorID>B12EF55C-1658-57AE-4A3D-674CC4B6823D</generatorID>

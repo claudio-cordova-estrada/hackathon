@@ -1,4 +1,4 @@
-import serial 
+import serial
 import cx_Oracle
 # import config as cfg
 from datetime import datetime
@@ -24,6 +24,23 @@ print(loc)"""
 """def insert_sos(p_cod, p_ubicacion, p_rut, p_fecha):
     sql = ('insert into SOS(p_cod, p_ubicacion, p_rut, p_fecha)'
             'values(:cod, :ubicacion, :rut, :fecha)')"""
+    
+connected = cx_Oracle.connect(
+    user = "admin",
+    password = "Exito1234567",
+    dsn = ""
+)
+cursor = connected.cursor()
 
+cursor.execute('''
+CRE''')
+    
+# usar loc para las cordenadas, hora para la fecha y hora(SON LOS PARAMETROS DEL INSERT)
+arduino = serial.Serial("COM4", 9600)
+
+while True:
+    switch = arduino.readline().decode("ascii")
+    if switch == "1":
+        print("XD")
        
         

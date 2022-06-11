@@ -36,7 +36,7 @@
 <colAssociation fkAssociation="C16C2DE3-7BD3-12AB-6F68-38B9197C399B" referredColumn="650030AC-A4D6-64F3-B41A-96C8CF8FDD81"/>
 </associations>
 </Column>
-<Column name="id_dispo1" id="8B83B541-BEB1-C4D5-B397-090B8CB29DA6">
+<Column name="id_dispo2" id="8B83B541-BEB1-C4D5-B397-090B8CB29DA6">
 <createdBy>CETECOM</createdBy>
 <createdTime>2022-06-10 23:22:11 UTC</createdTime>
 <generatorID>8273BBCE-9D3D-9C04-D69D-C70B8DB2C092</generatorID>

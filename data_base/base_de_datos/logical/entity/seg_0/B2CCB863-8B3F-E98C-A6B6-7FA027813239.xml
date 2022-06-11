@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_dispo" id="357EC9F0-C7A2-50F8-F0B4-C94049D8CC60">
+<Attribute name="id_estado_dispo" id="357EC9F0-C7A2-50F8-F0B4-C94049D8CC60">
 <createdBy>CETECOM</createdBy>
 <createdTime>2022-06-10 22:18:12 UTC</createdTime>
 <ownerDesignName>base_de_datos</ownerDesignName>
@@ -28,7 +28,7 @@
 <dataTypePrecision>1</dataTypePrecision>
 <ownDataTypeParameters>,1,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nom_dispo" id="30825EE3-D220-F876-23D6-6C3EAE199225">
+<Attribute name="nom_estado_dispo" id="30825EE3-D220-F876-23D6-6C3EAE199225">
 <createdBy>CETECOM</createdBy>
 <createdTime>2022-06-10 22:18:27 UTC</createdTime>
 <ownerDesignName>base_de_datos</ownerDesignName>
