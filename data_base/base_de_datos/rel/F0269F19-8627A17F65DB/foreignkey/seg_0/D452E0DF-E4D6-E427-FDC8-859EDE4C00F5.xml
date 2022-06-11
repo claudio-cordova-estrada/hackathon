@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D452E0DF-E4D6-E427-FDC8-859EDE4C00F5" containerWithKeyObject="6E58AC48-BB07-9592-569C-C1568836FA2A" localFKIndex="0D7E69F8-2421-F68B-0048-02B84067B6EF" name="DENUNCIA_SOS_FK">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:26:31 UTC</createdTime>
+<generatorID>346B2C97-7C85-DABE-EB34-FB52F4D31BFD</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<referredTableLongName>SOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>65A30859-BFE3-B48B-6F63-323C142BEC5A</referredTableID>
+<keyObject>B38F0699-0325-16B1-9DAA-C0967749E853</keyObject>
+<referredKeyID>B38F0699-0325-16B1-9DAA-C0967749E853</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_sos</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

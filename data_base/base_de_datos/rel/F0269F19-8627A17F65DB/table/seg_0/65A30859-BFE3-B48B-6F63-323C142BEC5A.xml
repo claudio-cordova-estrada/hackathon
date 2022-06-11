@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65A30859-BFE3-B48B-6F63-323C142BEC5A" name="SOS">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:22:11 UTC</createdTime>
+<generatorID>BDEACA6C-D8E0-4CCA-3CCD-225438F1BF99</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="run" id="08E7E050-F520-DB17-0FEC-44E299C5A833">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:22:11 UTC</createdTime>
+<generatorID>61619EB1-9F95-D26E-FFC6-94968860EC1B</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="run_1" id="BCC6875D-5853-AE3D-06A3-52C49A501D53">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:22:11 UTC</createdTime>
+<generatorID>0F0DD026-D20B-6645-26FB-53EDECBAA460</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FDAC80B9-B5A9-0DF4-59F7-604D2F2C91AE" referredColumn="91219AE5-25B9-CD86-153C-338FBE2B7778"/>
+</associations>
+</Column>
+<Column name="id_dispo2" id="CC6E0831-883D-9FED-2810-C25933BD85FC">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:22:11 UTC</createdTime>
+<generatorID>9BF81DC3-FD86-0094-1B08-BCAF10CF068A</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F001DC8B-AF0F-DA16-4C2F-00D1FD5C137A" referredColumn="8B83B541-BEB1-C4D5-B397-090B8CB29DA6"/>
+</associations>
+</Column>
+<Column name="id_tipo_sos" id="7F8F6732-3EB4-EB18-07FA-BE0AA38B8134">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:22:11 UTC</createdTime>
+<generatorID>A0B5191B-0670-E59E-C80C-EBAF7230846F</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6E0F2EA-D6B9-CBAC-2A70-38AFF07E572A" referredColumn="F556C57E-A06E-EDDA-78A7-1474D45F1847"/>
+</associations>
+</Column>
+<Column name="id_sos" id="47E06583-E9AC-C29D-68C0-78E3BA1BB9F9">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:22:11 UTC</createdTime>
+<generatorID>7BC9F3F7-608E-67FB-B5EE-7C7BE4A604A6</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="run_2" id="FD0ACB2D-246E-63E0-C813-3D6388532275">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:26:31 UTC</createdTime>
+<generatorID>B6399A33-5920-CDEE-C9BB-2B69F9ECE44C</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BFA70407-E798-67A5-A9AC-A36BA34B8450" referredColumn="E87E2C8A-5562-AF08-E547-07E9C97C6819"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B38F0699-0325-16B1-9DAA-C0967749E853" name="SOS_PK">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:22:11 UTC</createdTime>
+<generatorID>78C4BECF-6172-A75E-C8D6-3E77ADC9A0CF</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47E06583-E9AC-C29D-68C0-78E3BA1BB9F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F748CD6-9350-CBEC-40A3-32D4DED9631B" name="SOS_USUARIO_FK">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:26:31 UTC</createdTime>
+<generatorID>564174A6-EBD3-104D-A771-8E54D5C11EBC</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD0ACB2D-246E-63E0-C813-3D6388532275"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F770097C-586F-9E8E-6A66-EE2F3186F3D0" name="SOS_EMPLEADO_FK">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:26:31 UTC</createdTime>
+<generatorID>FF467C90-D276-6B97-3261-B6144CF19FCD</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BCC6875D-5853-AE3D-06A3-52C49A501D53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="27B6FF5F-F7C7-41D3-6AC9-A49F6EFDCC9B" name="SOS_ESTADO_SOS_FK">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:26:31 UTC</createdTime>
+<generatorID>3C86F03D-33F3-3409-177A-D8C49E38D13A</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F8F6732-3EB4-EB18-07FA-BE0AA38B8134"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF219D65-0BFD-AC49-B3B7-F82F20AA1887" name="SOS_DISPOSITIVO_FK">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:26:31 UTC</createdTime>
+<generatorID>4B44E56A-C329-57AF-7530-45F4282A639A</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC6E0831-883D-9FED-2810-C25933BD85FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="203A7B4C-4628-5B97-9C62-C4D79AC12A07" name="ESTADO_DENUNCIA">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:22:11 UTC</createdTime>
+<generatorID>DE503FB2-F906-D62C-646F-37B4E55DB777</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_estado_denuncia" id="303A1F53-F646-6A96-0D4D-3D167878B8BF">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:22:11 UTC</createdTime>
+<generatorID>3C416A82-598B-6D0D-B8C0-86F727CA8856</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_estado_denuncia" id="49452B4E-75E2-B46F-C1C6-41C3C49AE374">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:22:11 UTC</createdTime>
+<generatorID>DC31787F-A72F-5D9D-F840-AE2BB5E99A30</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51FC090B-D523-1AFF-7668-F8D75C09C48A" name="ESTADO_DENUNCIA_PK">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:22:11 UTC</createdTime>
+<generatorID>B4089346-34D4-97E9-EF04-DFBEC8AC9D24</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="303A1F53-F646-6A96-0D4D-3D167878B8BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

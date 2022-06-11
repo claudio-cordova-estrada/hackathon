@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F001DC8B-AF0F-DA16-4C2F-00D1FD5C137A" containerWithKeyObject="65A30859-BFE3-B48B-6F63-323C142BEC5A" localFKIndex="BF219D65-0BFD-AC49-B3B7-F82F20AA1887" name="SOS_DISPOSITIVO_FK">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:26:31 UTC</createdTime>
+<generatorID>4B44E56A-C329-57AF-7530-45F4282A639A</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<referredTableLongName>DISPOSITIVO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>29EE158A-2F18-51FB-A1CC-1D7A12536904</referredTableID>
+<keyObject>3EC0F033-09A4-5D52-AFEE-E0D255CDB26E</keyObject>
+<referredKeyID>3EC0F033-09A4-5D52-AFEE-E0D255CDB26E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>num_serie</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

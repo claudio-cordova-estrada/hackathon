@@ -14,4 +14,94 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_com" id="7074FF60-15D0-594B-7DAA-AABDD976B0B1">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 21:58:50 UTC</createdTime>
+<generatorID>3C1E8222-B59C-4E82-5471-2A36289444F0</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="true"/>
+</engineerTo>
+<referedAttribute>82EA295D-333B-A5B9-6583-03A4C0745540</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_dispo" id="8273BBCE-9D3D-9C04-D69D-C70B8DB2C092">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 22:09:51 UTC</createdTime>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_dispo1" id="E9998684-655D-F175-153F-F81FB32F90A3">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 22:18:56 UTC</createdTime>
+<generatorID>09DE3C66-8C64-894A-CF4A-EF557440E9E2</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="true"/>
+</engineerTo>
+<referedAttribute>357EC9F0-C7A2-50F8-F0B4-C94049D8CC60</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="run1" id="F07308E0-B086-FB43-CA0C-AA5895480F9C">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:26:24 UTC</createdTime>
+<generatorID>5E28CCB3-EBDC-607F-4ADE-16DDBAFEFBF6</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="true"/>
+</engineerTo>
+<referedAttribute>2B4419C1-F63C-AADD-69DB-5F4C978EC763</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipodispo" id="DD8568F2-9C31-FF53-5A4D-4F5EBF9C1FCB">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-11 03:08:45 UTC</createdTime>
+<generatorID>E31D1B8F-FC51-5832-4469-4DF4D9C2B23D</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="true"/>
+</engineerTo>
+<referedAttribute>19F696CC-510F-F685-32F9-270D61DE552D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0B97227C-814D-2628-5A68-E1D7F10E2915" name="DISPOSITIVO PK">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 22:09:55 UTC</createdTime>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8273BBCE-9D3D-9C04-D69D-C70B8DB2C092</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -14,4 +14,46 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_reg" id="D4DDF868-2C36-C8C6-7340-143D60B1F4B5">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 21:58:53 UTC</createdTime>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_reg" id="FD468AE9-0730-060C-BB9A-F4253993C84C">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 21:59:09 UTC</createdTime>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6B6CD3A9-D618-367C-0734-F5B02F1D3B3E" name="REGION PK">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 21:59:26 UTC</createdTime>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D4DDF868-2C36-C8C6-7340-143D60B1F4B5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

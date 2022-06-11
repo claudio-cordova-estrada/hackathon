@@ -1,0 +1,169 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29EE158A-2F18-51FB-A1CC-1D7A12536904" name="DISPOSITIVO">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:22:11 UTC</createdTime>
+<generatorID>6BACE8AC-F900-9B09-5065-E2A7A44025BB</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="run" id="36BB7F4A-CD16-A9DD-1ECA-3BE8D9505DEB">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:22:11 UTC</createdTime>
+<generatorID>71324158-53EE-C75B-B1F6-D817DEA2BF27</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_com" id="D03ADBF9-6D96-B84F-8F8B-D29A825DDD5E">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:22:11 UTC</createdTime>
+<generatorID>7074FF60-15D0-594B-7DAA-AABDD976B0B1</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C16C2DE3-7BD3-12AB-6F68-38B9197C399B" referredColumn="650030AC-A4D6-64F3-B41A-96C8CF8FDD81"/>
+</associations>
+</Column>
+<Column name="id_dispo1" id="8B83B541-BEB1-C4D5-B397-090B8CB29DA6">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:22:11 UTC</createdTime>
+<generatorID>8273BBCE-9D3D-9C04-D69D-C70B8DB2C092</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_dispo" id="120C64B0-BC55-619F-9C6C-FA47E965671D">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:22:11 UTC</createdTime>
+<generatorID>E9998684-655D-F175-153F-F81FB32F90A3</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0710775-83C3-BA14-DEDB-D52431A3E0C3" referredColumn="69840C2A-D20A-4F91-F487-3A28692FE3F5"/>
+</associations>
+</Column>
+<Column name="run_1" id="C4CF2753-4F54-1307-C3E2-98979C7EA2F1">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:26:31 UTC</createdTime>
+<generatorID>F07308E0-B086-FB43-CA0C-AA5895480F9C</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A0C55B7-7727-D079-75DD-3BA615EBF8EB" referredColumn="E87E2C8A-5562-AF08-E547-07E9C97C6819"/>
+</associations>
+</Column>
+<Column name="id_tipodispo" id="C8E8015B-2E3E-82EE-95F8-35F06969624F">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-11 03:10:46 UTC</createdTime>
+<generatorID>DD8568F2-9C31-FF53-5A4D-4F5EBF9C1FCB</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4C3CC35-6030-4AEA-3D65-E1CB6AE0A915" referredColumn="D8194096-6232-2482-A358-EF666556C458"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3EC0F033-09A4-5D52-AFEE-E0D255CDB26E" name="DISPOSITIVO_PK">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:22:11 UTC</createdTime>
+<generatorID>0B97227C-814D-2628-5A68-E1D7F10E2915</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B83B541-BEB1-C4D5-B397-090B8CB29DA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39DE2A40-CC6E-A9B7-20BA-4CCDC6118A82" name="DISPOSITIVO__IDX">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:26:31 UTC</createdTime>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5E28CCB3-EBDC-607F-4ADE-16DDBAFEFBF6</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="C4CF2753-4F54-1307-C3E2-98979C7EA2F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B64188A-F800-023A-D382-14D58E3FEE99" name="DISPOSITIVO_COMUNA_FK">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:26:31 UTC</createdTime>
+<generatorID>3C1E8222-B59C-4E82-5471-2A36289444F0</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D03ADBF9-6D96-B84F-8F8B-D29A825DDD5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="598FC9C7-4CBA-66FC-6D4A-574BB38C4FD7" name="DISPOSITIVO_USUARIO_FK">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:26:31 UTC</createdTime>
+<generatorID>5E28CCB3-EBDC-607F-4ADE-16DDBAFEFBF6</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4CF2753-4F54-1307-C3E2-98979C7EA2F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D67C3671-57DF-CA82-8183-77E621C689DF" name="DISPOSITIVO_ESTADO_DISPOSITIVO_FK">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:26:31 UTC</createdTime>
+<generatorID>09DE3C66-8C64-894A-CF4A-EF557440E9E2</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="120C64B0-BC55-619F-9C6C-FA47E965671D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A37C1C9F-03DD-6169-4370-BAFA0F1C421E" name="DISPOSITIVO_TIPO_DISPO_FK">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-11 03:10:46 UTC</createdTime>
+<generatorID>E31D1B8F-FC51-5832-4469-4DF4D9C2B23D</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8E8015B-2E3E-82EE-95F8-35F06969624F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

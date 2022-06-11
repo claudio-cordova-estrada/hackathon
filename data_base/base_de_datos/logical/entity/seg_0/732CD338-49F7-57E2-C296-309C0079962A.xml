@@ -14,4 +14,60 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tipo_sos" id="94A5A06B-77F8-5891-0A7F-3BEE5DC51559">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 22:19:04 UTC</createdTime>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_sos" id="A0A2BED5-F5D0-286E-00D5-65B2639CD4E9">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 22:19:22 UTC</createdTime>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="desc_sos" id="23C6806D-9D14-B76A-7816-89DE6DF23D4F">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 22:20:01 UTC</createdTime>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9213061A-7F5E-FE7E-9E0C-77B4382B876E" name="ESTADO_SOS PK">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 22:20:51 UTC</createdTime>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>94A5A06B-77F8-5891-0A7F-3BEE5DC51559</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

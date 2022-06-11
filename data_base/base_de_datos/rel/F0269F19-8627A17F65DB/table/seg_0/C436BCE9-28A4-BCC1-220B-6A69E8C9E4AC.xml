@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C436BCE9-28A4-BCC1-220B-6A69E8C9E4AC" name="TIPO_DISPO">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-11 03:10:46 UTC</createdTime>
+<generatorID>68EA1180-C51E-C681-9FA0-B969D8580E57</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tipodispo" id="D8194096-6232-2482-A358-EF666556C458">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-11 03:10:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[No se contempla más de 99 tipos de dispositivos]]></commentInRDBMS>
+<generatorID>19F696CC-510F-F685-32F9-270D61DE552D</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_tipodispo" id="40B62299-464F-04F9-1E33-C3D8B4F25404">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-11 03:10:46 UTC</createdTime>
+<generatorID>6BE59EA4-1F57-F370-4E71-C19BEF0CF0F9</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E8784CC-4E22-C600-F652-28DD56660E3A" name="tipo_dispo_PK">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-11 03:10:46 UTC</createdTime>
+<generatorID>66F3A72A-BAA7-BC0A-8062-88538AECDCA0</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8194096-6232-2482-A358-EF666556C458"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6D73B5DB-6B52-B244-0795-A423A5AA878E" name="RECORRIDO">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:22:11 UTC</createdTime>
+<comment><![CDATA[Se busca que se cree una tabla de esto cada 5 min]]></comment>
+<generatorID>29BA7811-DAB5-3AE0-1CAA-0447D677144F</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_sos" id="070129F6-9A58-7810-4296-4F8C1B015C27">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:22:11 UTC</createdTime>
+<generatorID>BBD66910-29EA-1F6D-81D8-480E330F537F</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CF8345D2-C8C6-5F6D-8373-BEF223E58415" referredColumn="47E06583-E9AC-C29D-68C0-78E3BA1BB9F9"/>
+</associations>
+</Column>
+<Column name="id_recorrido" id="EEB3230B-826A-1585-A4BC-2F4F85CCCE97">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:22:11 UTC</createdTime>
+<generatorID>ED7CD8B1-5CE6-B040-B2F3-D6FF10186600</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="km_totales" id="08A04EFF-F250-4B94-EF7E-B27E91B431F6">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:22:11 UTC</createdTime>
+<generatorID>33A16BEA-39C4-BB66-7419-68F0ECA1D424</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ubicacion" id="888AF422-D988-6B36-31D4-018B82640649">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:22:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ej:
+
+[-33.4569, -70.6483]]]></commentInRDBMS>
+<generatorID>61097B46-4EF9-D95C-A6F1-15FF69C6F6FD</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="37AB23C8-00D9-7F2D-1501-DC7254C982A7" name="RECORRIDO_PK">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:22:11 UTC</createdTime>
+<generatorID>4E2A38EA-2776-7EE1-1238-CEFAB38179AF</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEB3230B-826A-1585-A4BC-2F4F85CCCE97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4346D03-D08B-F099-EB61-98903DACC040" name="RECORRIDO_SOS_FK">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:26:31 UTC</createdTime>
+<generatorID>9E64CE76-37F4-7310-5710-A0C9055B7941</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="070129F6-9A58-7810-4296-4F8C1B015C27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

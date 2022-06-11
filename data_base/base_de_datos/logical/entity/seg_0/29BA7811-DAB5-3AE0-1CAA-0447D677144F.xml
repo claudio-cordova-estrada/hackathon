@@ -2,6 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="29BA7811-DAB5-3AE0-1CAA-0447D677144F" name="RECORRIDO">
 <createdBy>CETECOM</createdBy>
 <createdTime>2022-06-10 18:44:16 UTC</createdTime>
+<comment><![CDATA[Se busca que se cree una tabla de esto cada 5 min]]></comment>
 <ownerDesignName>base_de_datos</ownerDesignName>
 <engineerTo>
 <item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="true"/>
@@ -14,4 +15,78 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_sos" id="BBD66910-29EA-1F6D-81D8-480E330F537F">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 22:27:02 UTC</createdTime>
+<generatorID>9E64CE76-37F4-7310-5710-A0C9055B7941</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="true"/>
+</engineerTo>
+<referedAttribute>7BC9F3F7-608E-67FB-B5EE-7C7BE4A604A6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_recorrido" id="ED7CD8B1-5CE6-B040-B2F3-D6FF10186600">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 22:29:11 UTC</createdTime>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="km_totales" id="33A16BEA-39C4-BB66-7419-68F0ECA1D424">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 22:32:22 UTC</createdTime>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ubicacion" id="61097B46-4EF9-D95C-A6F1-15FF69C6F6FD">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 22:50:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ej:
+
+[-33.4569, -70.6483]]]></commentInRDBMS>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4E2A38EA-2776-7EE1-1238-CEFAB38179AF" name="RECORRIDO PK">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 22:35:42 UTC</createdTime>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ED7CD8B1-5CE6-B040-B2F3-D6FF10186600</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

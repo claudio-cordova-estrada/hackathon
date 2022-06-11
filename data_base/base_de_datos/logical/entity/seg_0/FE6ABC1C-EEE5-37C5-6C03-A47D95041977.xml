@@ -14,4 +14,61 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_com" id="82EA295D-333B-A5B9-6583-03A4C0745540">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 21:58:28 UTC</createdTime>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_com" id="4D520A63-8ECD-A33E-0D1B-418E0B8FFF7E">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 21:58:38 UTC</createdTime>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_reg" id="333F43DB-12B9-EC25-5B02-A473DAF13C32">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 21:59:29 UTC</createdTime>
+<generatorID>41D81BBB-0449-002E-64A4-14A5CAF2B4C2</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="true"/>
+</engineerTo>
+<referedAttribute>D4DDF868-2C36-C8C6-7340-143D60B1F4B5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C19795E4-A85B-D891-7EDD-B2A912643E68" name="COMUNA PK">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 21:58:32 UTC</createdTime>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>82EA295D-333B-A5B9-6583-03A4C0745540</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

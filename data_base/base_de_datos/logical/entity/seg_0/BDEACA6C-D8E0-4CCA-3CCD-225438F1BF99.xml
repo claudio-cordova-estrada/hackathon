@@ -14,4 +14,109 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="run" id="61619EB1-9F95-D26E-FFC6-94968860EC1B">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 21:49:24 UTC</createdTime>
+<generatorID>564174A6-EBD3-104D-A771-8E54D5C11EBC</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="true"/>
+</engineerTo>
+<referedAttribute>61B81E21-45CC-EB6D-7517-67D25F6426FD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="run1" id="0F0DD026-D20B-6645-26FB-53EDECBAA460">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 22:08:06 UTC</createdTime>
+<generatorID>FF467C90-D276-6B97-3261-B6144CF19FCD</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D14B5746-4C70-E08B-8A21-D5CC380D2437</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_dispo" id="9BF81DC3-FD86-0094-1B08-BCAF10CF068A">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 22:10:45 UTC</createdTime>
+<generatorID>4B44E56A-C329-57AF-7530-45F4282A639A</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="true"/>
+</engineerTo>
+<referedAttribute>8273BBCE-9D3D-9C04-D69D-C70B8DB2C092</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo_sos" id="A0B5191B-0670-E59E-C80C-EBAF7230846F">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 22:20:56 UTC</createdTime>
+<generatorID>3C86F03D-33F3-3409-177A-D8C49E38D13A</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="true"/>
+</engineerTo>
+<referedAttribute>94A5A06B-77F8-5891-0A7F-3BEE5DC51559</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_sos" id="7BC9F3F7-608E-67FB-B5EE-7C7BE4A604A6">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 22:26:32 UTC</createdTime>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="run2" id="B6399A33-5920-CDEE-C9BB-2B69F9ECE44C">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:26:24 UTC</createdTime>
+<generatorID>564174A6-EBD3-104D-A771-8E54D5C11EBC</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="true"/>
+</engineerTo>
+<referedAttribute>2B4419C1-F63C-AADD-69DB-5F4C978EC763</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="78C4BECF-6172-A75E-C8D6-3E77ADC9A0CF" name="SOS PK">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 22:27:01 UTC</createdTime>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7BC9F3F7-608E-67FB-B5EE-7C7BE4A604A6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

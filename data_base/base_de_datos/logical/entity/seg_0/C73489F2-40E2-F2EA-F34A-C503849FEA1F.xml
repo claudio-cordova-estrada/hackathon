@@ -14,4 +14,120 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="run" id="D5E7F935-4CF6-C034-A2E8-A600FC4CB572">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 21:49:24 UTC</createdTime>
+<generatorID>5BC31937-270E-0FFC-5E13-09010AE3AD71</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="true"/>
+</engineerTo>
+<referedAttribute>61B81E21-45CC-EB6D-7517-67D25F6426FD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="run1" id="1606FEB0-A3CE-EB85-F4B5-BB611A00F9F8">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 22:07:58 UTC</createdTime>
+<generatorID>B5E4CDB8-7691-34AD-BC16-E7AD31802B8E</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="true"/>
+</engineerTo>
+<referedAttribute>D14B5746-4C70-E08B-8A21-D5CC380D2437</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_estado_denuncia" id="AAD96BBE-5662-6C30-446C-7834B36F9D22">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 22:15:24 UTC</createdTime>
+<generatorID>2C046339-511F-5E02-892C-35DC5A29AFF3</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="true"/>
+</engineerTo>
+<referedAttribute>3C416A82-598B-6D0D-B8C0-86F727CA8856</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_denuncia" id="B213DCCF-F491-13F0-592B-2ED727178D0C">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 22:16:03 UTC</createdTime>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_denunc" id="9723C1CF-435D-4BBF-F7AE-B1BF3B20B8AD">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 22:17:13 UTC</createdTime>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_sos" id="72E75D60-A05A-8865-8163-AE9E414E2CB5">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 22:27:02 UTC</createdTime>
+<generatorID>346B2C97-7C85-DABE-EB34-FB52F4D31BFD</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="true"/>
+</engineerTo>
+<referedAttribute>7BC9F3F7-608E-67FB-B5EE-7C7BE4A604A6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="run2" id="B12EF55C-1658-57AE-4A3D-674CC4B6823D">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:26:24 UTC</createdTime>
+<generatorID>5BC31937-270E-0FFC-5E13-09010AE3AD71</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="true"/>
+</engineerTo>
+<referedAttribute>2B4419C1-F63C-AADD-69DB-5F4C978EC763</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="86B29486-169F-8B73-C3D5-E2633EF79BAA" name="DENUNCIA PK">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 22:16:23 UTC</createdTime>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F0269F19-DEBC-21BF-DC98-8627A17F65DB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B213DCCF-F491-13F0-592B-2ED727178D0C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

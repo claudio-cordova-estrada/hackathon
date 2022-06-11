@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3A0C55B7-7727-D079-75DD-3BA615EBF8EB" containerWithKeyObject="29EE158A-2F18-51FB-A1CC-1D7A12536904" localFKIndex="598FC9C7-4CBA-66FC-6D4A-574BB38C4FD7" name="DISPOSITIVO_USUARIO_FK">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-10 23:26:31 UTC</createdTime>
+<generatorID>5E28CCB3-EBDC-607F-4ADE-16DDBAFEFBF6</generatorID>
+<ownerDesignName>base_de_datos</ownerDesignName>
+<referredTableLongName>USUARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D095C563-4172-283D-6194-81A04CA347FF</referredTableID>
+<keyObject>C90820F8-574C-EA7D-D5EC-1885F38FC34F</keyObject>
+<referredKeyID>C90820F8-574C-EA7D-D5EC-1885F38FC34F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>run</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
