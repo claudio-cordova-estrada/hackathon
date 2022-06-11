@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3453EFA6-7855-E0D9-B367-58DB27CB4730" containerWithKeyObject="15040973-D285-EF05-A315-AF61E1E5EB62" localFKIndex="E4397813-D345-1428-338D-4AA07B4BDAB9" name="SOS_OUTPUT_FK">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-11 16:05:21 UTC</createdTime>
+<generatorID>68127C7C-7ECF-F179-88F4-019D18931F69</generatorID>
+<ownerDesignName>DB_basica</ownerDesignName>
+<referredTableLongName>OUTPUT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CEC63E9C-7733-A0A5-9D77-534AD69686C1</referredTableID>
+<keyObject>E12C1F4E-270E-A5DE-0DD0-17B71CAFE63E</keyObject>
+<referredKeyID>E12C1F4E-270E-A5DE-0DD0-17B71CAFE63E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_dispo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

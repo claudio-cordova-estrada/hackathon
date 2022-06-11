@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CEC63E9C-7733-A0A5-9D77-534AD69686C1" name="OUTPUT">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-11 16:05:21 UTC</createdTime>
+<comment><![CDATA[Busca representar al prototipo]]></comment>
+<generatorID>4C5C246A-A55D-5BCE-E003-0FAA9421830C</generatorID>
+<ownerDesignName>DB_basica</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_dispo" id="D4E0832B-4700-E445-B489-01DB2F896E9C">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-11 16:05:21 UTC</createdTime>
+<generatorID>5FB877A7-8913-0588-0F70-FB95ECDB3F0D</generatorID>
+<ownerDesignName>DB_basica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_com" id="8945715C-D2E4-DF74-672B-FCB892E39DC4">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-11 16:05:21 UTC</createdTime>
+<generatorID>E93B2C18-39F1-27BB-80FA-74DF1DEC8ABA</generatorID>
+<ownerDesignName>DB_basica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="run" id="EC4CDD6F-6506-184F-2893-6A8251720BDE">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-11 16:05:21 UTC</createdTime>
+<generatorID>426DDC94-67B6-87F6-4646-EF5FAFE2F922</generatorID>
+<ownerDesignName>DB_basica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_tipoDispositivo" id="91324223-DFE3-E357-6ACD-35CD9E06413B">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-11 16:05:21 UTC</createdTime>
+<generatorID>8A0D1F78-8FDB-C1EE-DD20-72EB509EB81C</generatorID>
+<ownerDesignName>DB_basica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E12C1F4E-270E-A5DE-0DD0-17B71CAFE63E" name="OUTPUT_PK">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-11 16:05:21 UTC</createdTime>
+<generatorID>2D767914-385C-DD0B-6411-E5040003DA56</generatorID>
+<ownerDesignName>DB_basica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4E0832B-4700-E445-B489-01DB2F896E9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
