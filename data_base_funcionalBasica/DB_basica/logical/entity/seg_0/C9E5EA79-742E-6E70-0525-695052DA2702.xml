@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C9E5EA79-742E-6E70-0525-695052DA2702" name="SOS">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-11 15:57:32 UTC</createdTime>
+<ownerDesignName>DB_basica</ownerDesignName>
+<engineerTo>
+<item key="FA009F62-43B3-37DD-E601-6C95BF91FC77" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_sos" id="71A8DBA2-9A74-7093-2061-7599ED7C1BDD">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-11 16:00:03 UTC</createdTime>
+<ownerDesignName>DB_basica</ownerDesignName>
+<engineerTo>
+<item key="FA009F62-43B3-37DD-E601-6C95BF91FC77" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="run" id="D15B8286-259C-FD3B-E936-17781BBFB9B0">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-11 15:58:59 UTC</createdTime>
+<ownerDesignName>DB_basica</ownerDesignName>
+<engineerTo>
+<item key="FA009F62-43B3-37DD-E601-6C95BF91FC77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_dispo" id="D723B6F6-0499-3777-EEE0-609431E703F6">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-11 15:59:20 UTC</createdTime>
+<ownerDesignName>DB_basica</ownerDesignName>
+<engineerTo>
+<item key="FA009F62-43B3-37DD-E601-6C95BF91FC77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo_sos" id="8355E6F5-F7E6-DFF7-2897-B44DCEE1D992">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-11 15:59:39 UTC</createdTime>
+<ownerDesignName>DB_basica</ownerDesignName>
+<engineerTo>
+<item key="FA009F62-43B3-37DD-E601-6C95BF91FC77" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_dispo1" id="6D6BFCA6-70C7-C3A9-B4EF-66EB9634F698">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-11 16:03:22 UTC</createdTime>
+<generatorID>68127C7C-7ECF-F179-88F4-019D18931F69</generatorID>
+<ownerDesignName>DB_basica</ownerDesignName>
+<engineerTo>
+<item key="FA009F62-43B3-37DD-E601-6C95BF91FC77" value="true"/>
+</engineerTo>
+<referedAttribute>5FB877A7-8913-0588-0F70-FB95ECDB3F0D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="69FDC06B-20CE-D5CB-3DC7-A3E349E9A636" name="SOS PK">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-11 15:59:03 UTC</createdTime>
+<ownerDesignName>DB_basica</ownerDesignName>
+<engineerTo>
+<item key="FA009F62-43B3-37DD-E601-6C95BF91FC77" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>71A8DBA2-9A74-7093-2061-7599ED7C1BDD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

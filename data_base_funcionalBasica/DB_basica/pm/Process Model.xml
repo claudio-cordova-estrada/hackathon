@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="3F3597EF-3C0D-395C-3A84-F0DBD8CC2B42">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-11 15:57:02 UTC</createdTime>
+<ownerDesignName>DB_basica</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

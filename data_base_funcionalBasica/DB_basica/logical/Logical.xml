@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="04A46E49-4A64-A90A-D1BA-FB79D75577CF" mainViewID="4262EB8B-368C-64C6-8566-81E46B51D960">
+<createdBy>CETECOM</createdBy>
+<createdTime>2022-06-11 15:57:02 UTC</createdTime>
+<ownerDesignName>DB_basica</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
