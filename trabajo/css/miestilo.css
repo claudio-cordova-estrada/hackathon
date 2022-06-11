@@ -1,0 +1,14 @@
+.hola {
+  background-color: blue;
+}
+
+.hola2 {
+  background-color: chartreuse;
+}
+
+.container {
+  margin-top: auto;
+  margin-left: auto;
+  margin-top: auto;
+  border: rgba(28, 206, 176, 0.603);
+}
