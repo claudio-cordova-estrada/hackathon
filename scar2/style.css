@@ -1,6 +1,6 @@
 
 .bgimg {
-  background-image: url(imagenes/Portada2.png);
+  background-image: url(imagenes/portada\ 2.3.png);
   min-height: 70%;
   background-size: cover;
   background-attachment: inherit;
@@ -15,6 +15,9 @@ body, html {
 }
 
 
+p {
+    text-indent: 50px;
+}
 
 
 
