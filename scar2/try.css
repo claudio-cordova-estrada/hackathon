@@ -1,0 +1,23 @@
+
+.bgimg {
+  background-image: url(imagenes/Portada2.png);
+  min-height: 70%;
+  background-size: cover;
+  background-attachment: inherit;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+
+
+
+
+
+
